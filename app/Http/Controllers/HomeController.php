@@ -18,4 +18,8 @@ class HomeController extends Controller
     {
         return view('primeiro');
     }
+    public function act()
+    {
+        return view('act');
+    }
 }
