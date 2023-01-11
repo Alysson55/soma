@@ -14,4 +14,8 @@ class HomeController extends Controller
     {
         return view('sobre');
     }
+    public function primeiro()
+    {
+        return view('primeiro');
+    }
 }

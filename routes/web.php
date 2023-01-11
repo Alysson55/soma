@@ -21,3 +21,4 @@ Route::get('/soma10/{num}', [CalculadoraController::class, 'soma10']);
 Route::get('/soma/{num1}/{num2}', [CalculadoraController::class, 'soma']);
 Route::get('/calculadora', [CalculadoraController::class, 'calculadora']);
 Route::post('/calcular', [CalculadoraController::class, 'calcular']);
+Route::get('/' , [HomeController::class, 'primeiro']);
