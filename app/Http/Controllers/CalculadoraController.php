@@ -34,4 +34,8 @@ class CalculadoraController extends Controller
 
         return view ('soma', compact ('soma'));
     }
+    public function calculando()
+    {
+        return view('calculando');
+    }
 }
