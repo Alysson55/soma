@@ -22,4 +22,8 @@ class HomeController extends Controller
     {
         return view('act');
     }
+    public function nome()
+    {
+        return view('nome');
+    }
 }

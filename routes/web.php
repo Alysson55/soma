@@ -23,3 +23,4 @@ Route::get('/calculadora', [CalculadoraController::class, 'calculadora']);
 Route::post('/calcular', [CalculadoraController::class, 'calcular']);
 Route::get('/' , [HomeController::class, 'primeiro']);
 Route::get('/act' , [HomeController::class, 'act']);
+Route::get('/nome/{nome}', [CalculadoraController::class, 'nome']);
